@@ -1,0 +1,92 @@
+.section__video {
+    padding: 144px 0 224px;
+    min-height: 1201px;
+}
+
+.video__title {
+    color: #1F1F1F;
+    margin-bottom: 12px;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.video__text {
+    color: var(--dark-grey, #1F1F1F);
+    margin-bottom: 78px;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 44px;
+
+    opacity: 0.699999988079071;
+}
+
+.video {
+    position: relative;
+}
+
+.video__btn {
+    position: absolute;
+    z-index: 9;
+    max-width: 120px;
+    max-width: 120px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.video__btn-img {
+
+}
+
+.video__img {
+ position: absolute;
+ left: 0;
+ top: 0;
+}
+
+
+.video__travel {
+    width: 100%;
+}
+
+@media (max-width: 916px) {
+    .section__video {
+        padding: 16px 0 235px;
+        min-height: 1110px;
+    }
+
+    .case__studies {
+        padding: 29px 0;
+    }
+}
+
+
+@media (max-width: 700px) {
+    .section__video {
+        padding: 4px 0 0px;
+        min-height: 781px;
+    }
+
+
+}
+
+
+@media (max-width: 400px) {
+    .video__title h2 {
+        margin-bottom: 12px;
+        font-size: 57px;
+    }
+
+    .section__video {
+        padding: 4px 0 0px;
+        min-height: 598px;
+    }
+
+    .video__text {
+        margin-bottom: 52px;
+    }
+}
